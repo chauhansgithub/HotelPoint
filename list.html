@@ -2,29 +2,25 @@
 <html>
      <head>
           <title>List</title>
-          <style>
-               .socialImg{
-                    height: 20px;
-                    width: 22px;
-
-               }
-          </style>
+          <link rel="stylesheet" href="styles/index.css">
+          <link rel="stylesheet" href="styles/list.css">
+          
      </head>
      <body>
-          <div class="header">
-               <a href="index.html"><img src="assests/images/logo.png" alt="logo" heigh="200px" width="150px"></a>
+          <header>
+               <a href="index.html"><img id="logoimg" src="assests/images/logo.png" alt="logo_img" ></a>
                
                <a href="login.html">Login</a>
                
-          </div>
+          </header>
           <div class="content">
                <ul>
-                    <li><a href="list.html">List View</a></li>
-                    <li><a href="list.html">Map View</a></li>    
+                    <li><a href="#list_div">List View</a></li>
+                    <li><a href="#map_div">Map View</a></li>    
                </ul>
-               <div>
+               <div id="list_div">
                     <a href="detail.html">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
+                    <img class="list_img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
                     <h3>Radisson Blu Hotel</h3>
                     <p>5 star</p>
                     <p>New Delhi</p>
@@ -32,31 +28,31 @@
                </div>
                
                <div>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="lalit_hotel">
+                    <img class="list_img" src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="lalit_hotel">
                     <h3>The Lalit New Delhi</h3>
                     <p>4.5 star</p>
                     <p>New Delhi</p>
                </div>
                            
                <div>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="taj_palace_hotel">
+                    <img class="list_img" src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="taj_palace_hotel">
                     <h3>Taj Palace</h3>
                     <p>4.0 star</p>
                     <p>New Delhi</p>
                </div>
-               <div>
+               <div id="map_div">
                     <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="taj_palace_hotel">
                     <p>MAP VIEW</p>
                </div>
           </div>
-          <div class="footer">
+          <footer>
                <a href="contact.html" >Contact Us</a>
                <br>
-               <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook"></a>
-               <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram"></a>
-               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter"></a>
+               <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
+               <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
+               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
                
                <p>© 2020 ROOM SEARCH PVT LTD</p>
-          </div>
+          </footer>
      </body>
 </html>
