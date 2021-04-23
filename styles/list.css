@@ -1,4 +1,11 @@
 .list_img{
      height: 200px;
      width: 250px;
+     
+}
+
+.listItem{
+     width: 40%;
+     margin: 2%;
+     background-color:rgb(132, 136, 139);
 }

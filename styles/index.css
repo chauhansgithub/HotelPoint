@@ -1,23 +1,28 @@
-html{
-     height: 100%;
-     
-}
-body{
-     min-height: 100%;
-     width: 100%;
-}
-
-#logoimg{
-     height: 60px;
-     width: 60px;;
-}
-
 .cityImg{
      height: 150px;
      width: 150px;
+     border-radius: 25%;
 }
 
-.socialImg{
-     height: 20px;
-     width: 22px;
+.srchbg{
+     position: relative;
+     height: 430px;     
+     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.srch{
+     position:absolute;
+     left: 0px;
+     top: 0px;
+}
+
+.cities{
+     display: flex;
+     margin-left: 15%;
+     margin-right: 15%;
+     padding: 4%;
+     justify-content: space-evenly;
 }

@@ -1,4 +1,14 @@
-#detail_img{
+#detailImg{
      height: 500px;
      width: 500px;
+     margin: 2% 4% 0% 4%;
+     
+}
+
+#detailForm{
+     margin: 0% 4% 1% 4%;
+}
+
+.details{
+     margin: 1% 4% 2% 4%;
 }

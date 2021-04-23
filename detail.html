@@ -2,55 +2,54 @@
 <html>
      <head>
           <title>Detail</title>
-          <link rel="stylesheet" href="styles/index.css">
-          <link rel="stylesheet" href="styles/detail.css">
-          
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="styles/common.css">
+          <link rel="stylesheet" href="styles/detail.css">         
      </head>
      <body>
-          
           <header>
-               <a href="index.html"><img id="logoimg" src="assests/images/logo.png" alt="logo_img"></a>
-               
+               <a href="index.html"><img id="logoImg" src="assests/images/logo.png" alt="logo_img"></a>
                <a href="login.html" target="_blank">Login</a>
           </header>
           <div class="content">
-               <img id="detail_img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
-               <br>
-               <form action="payment.html">
-                    <label for="adults"><b>Adults:</b></label>
-                    <input id="adults" type="number" name="adult" value="1" min="1" step="1" required><br>
-                    <label for="name"><b>Name:</b></label>
-                    <input id="name" type="text" name="name" required><br>
-                    <label for="fromdate"><b>From Date:</b></label>
-                    <input type="date" id="fromDate" name="fromDate" required><br>
-                    <label for="todate"><b>To Date:</b></label>
-                    <input type="date" id="toDate" name="toDate" required><br>
-                    <label for="total"><b>Total:</b></label>
-                    <input type="number" id="total" name="price" readonly="readonly"><br>
-                    <input type="submit" value="Book Now">
-               </form>
-               
-               <h2>Radisson Blu Hotel</h2>
-               <p>RATING</p>
-               <p>5 Star</p>
-               <p>AMENITIES</p>
-               <ul>
-                    <li>Room service</li>
-                    <li>Restaurant</li>
-                    <li>Business center</li>
-                    <li>Fitness center</li>
-                    <li>Pool</li>
-               </ul>
-               <h5>DESCRIPTION</h5>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis varius quam quisque id diam. Eleifend donec pretium vulputate sapien. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Sapien eget mi proin sed. At in tellus integer feugiat scelerisque varius morbi enim. Odio morbi quis commodo odio aenean sed adipiscing diam. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Sed vulputate odio ut enim. Penatibus et magnis dis parturient montes nascetur. Amet justo donec enim diam vulputate. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Id neque aliquam vestibulum morbi.</p>
+               <img id="detailImg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
+               <div id="detailForm">
+                    <form action="payment.html">
+                         <label for="adults"><b>Adults:</b></label>
+                         <input id="adults" type="number" name="adult" value="1" min="1" step="1" required><br>
+                         <label for="name"><b>Name:</b></label>
+                         <input id="name" type="text" name="name" required><br>
+                         <label for="fromdate"><b>From Date:</b></label>
+                         <input type="date" id="fromDate" name="fromDate" required><br>
+                         <label for="todate"><b>To Date:</b></label>
+                         <input type="date" id="toDate" name="toDate" required><br>
+                         <label for="total"><b>Total:</b></label>
+                         <input type="number" id="total" name="price" readonly="readonly"><br>
+                         <input type="submit" value="Book Now">
+                    </form>
+               </div>
+               <div class="details">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>RATING</p>
+                    <p>5 Star</p>
+                    <p>AMENITIES</p>
+                    <ul>
+                         <li>Room service</li>
+                         <li>Restaurant</li>
+                         <li>Business center</li>
+                         <li>Fitness center</li>
+                         <li>Pool</li>
+                    </ul>
+                    <h5>DESCRIPTION</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis varius quam quisque id diam. Eleifend donec pretium vulputate sapien. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Sapien eget mi proin sed. At in tellus integer feugiat scelerisque varius morbi enim. Odio morbi quis commodo odio aenean sed adipiscing diam. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Sed vulputate odio ut enim. Penatibus et magnis dis parturient montes nascetur. Amet justo donec enim diam vulputate. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Id neque aliquam vestibulum morbi.</p>
+               </div>
           </div>
           <footer>
                <a href="contact.html" >Contact Us</a>
                <br>
                <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
                <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
-               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
-               
+               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>          
                <p>© 2020 ROOM SEARCH PVT LTD</p>
           </footer>
      </body>

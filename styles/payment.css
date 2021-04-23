@@ -2,3 +2,20 @@
      height: 500px;
      width: 500px;
 }
+
+.hotelDetails{
+     width: 50%;
+     height: 20%;
+     background-color:rgb(132, 136, 139);
+     margin: 2% auto;
+}
+.personalDetails{
+     margin: 2%;
+}
+
+.tariffDetails{
+     margin: 2%;
+     padding: 1% 2%;
+     border-radius: 5px;
+     border: 1px solid black;
+}
