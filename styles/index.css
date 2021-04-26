@@ -1,3 +1,14 @@
+body{
+     font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+     margin:0 auto; 
+     overflow:auto;
+     padding:80px 0;
+     text-align: center;
+}
+
 .cityImg{
      height: 150px;
      width: 150px;
@@ -11,12 +22,21 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
+     z-index: -1;
 }
 
-.srch{
+#search{
      position:absolute;
-     left: 0px;
-     top: 0px;
+     font-size: 16px;
+     transform: translate(-50%, -50%);
+     top: 50%;
+     left: 51%;
+     width: 28%;
+     border: 1px solid transparent;
+     background-color: #f1f1f1;
+     padding: 10px;
+     border-radius: 12px;
+     text-align: start;
 }
 
 .cities{
@@ -25,4 +45,8 @@
      margin-right: 15%;
      padding: 4%;
      justify-content: space-evenly;
+}
+
+#viewButton{
+     text-decoration: none;
 }

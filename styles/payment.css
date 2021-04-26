@@ -1,3 +1,7 @@
+.content{
+     text-align: left;
+}
+
 #payment_img{
      height: 500px;
      width: 500px;
@@ -18,4 +22,8 @@
      padding: 1% 2%;
      border-radius: 5px;
      border: 1px solid black;
+}
+
+#payButton{
+     text-decoration: none;
 }

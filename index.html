@@ -5,19 +5,21 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="styles/common.css">
           <link rel="stylesheet" href="styles/index.css">
-          
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+
      </head>
 
      <body>
           <header>
-               <img  id="logoImg" src="assests/images/logo.png" alt="logo">              
-               <a href="login.html" >Login</a>
+               <div class="innerHeader">
+                    <img id="logoImg" src="assests/images/logo.png" alt="logo"> 
+                    <a id="loginButton" href="login.html" >Login</a>          
+               </div>
           </header>
           <div class="content">
                <div class="srchbg">
-                    <div class="srch">
-                         <input id="search" name="search" placeholder="City">
-                    </div>
+                    <input type="text" id="search" name="search" placeholder="City">    
                </div>
                <div class="cities">
                     <a href="list.html" ><img class="cityImg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="new_delhi_img"></a>
@@ -25,15 +27,19 @@
                     <img class="cityImg" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="hyderabad_img">
                     <img class="cityImg" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="kolkata_img">
                </div>
-               <a href="index.html">View more >></a>
-          </div>
+               
+               <a id="viewButton" href="index.html">View more >></a>
+          </div>                    
           <footer>
-               <a href="contact.html" >Contact Us</a>
-               <br>
-               <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
-               <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
-               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
-               <p>© 2020 ROOM SEARCH PVT LTD</p>
+               <div class="innerFooter">
+                    <a id="contactButton" href="contact.html" >Contact Us</a>
+                    <div id="socialButton">
+                         <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
+                         <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
+                         <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
+                    </div>
+               </div>
+               <p id="copyRight">© 2020 ROOM SEARCH PVT LTD</p>
           </footer>
      </body>
 </html>

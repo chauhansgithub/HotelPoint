@@ -5,12 +5,17 @@
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="styles/common.css">
           <link rel="stylesheet" href="styles/payment.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+
           
      </head>
      <body>
           <header>
-               <a href="index.html"><img id="logoImg" src="assests/images/logo.png" alt="logo_img"></a>
-               <a href="login.html" >Login</a>
+               <div class="innerHeader">
+                    <a href="index.html"><img  id="logoImg" src="assests/images/logo.png" alt="logo"></a> 
+                    <a id="loginButton" href="login.html" >Login</a>          
+               </div>
           </header>
           <div class="content">
                <div class="hotelDetails">
@@ -29,15 +34,18 @@
                     <p><b>Tariff Breakdown:</b> Rs 1000 x 2 Adults x 5 Nights</p>
                     <p><b>Total Amount:</b> Rs 10000</p>       
                </div>
-               <a href="payment.html">Pay Now</a>
+               <a id="payButton" href="payment.html">Pay Now</a>
           </div>
           <footer>
-               <a href="contact.html" >Contact Us</a>
-               <br>
-               <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
-               <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
-               <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>               
-               <p>© 2020 ROOM SEARCH PVT LTD</p>
+               <div class="innerFooter">
+                    <a id="contactButton" href="contact.html" >Contact Us</a>
+                    <div id="socialButton">
+                         <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
+                         <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
+                         <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
+                    </div>
+               </div>
+               <p id="copyRight">© 2020 ROOM SEARCH PVT LTD</p>
           </footer>
      </body>
 </html>
