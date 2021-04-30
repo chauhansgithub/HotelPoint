@@ -2,17 +2,70 @@
      text-align: left;
 }
 
-#detailImg{
-     height: 500px;
-     width: 500px;
-     margin: 2% 4% 0% 4%;
-     
-}
-
-#detailForm{
-     margin: 0% 4% 1% 4%;
+h5{
+     font-family: cursive;
 }
 
 .details{
      margin: 1% 4% 2% 4%;
+}
+
+.detailBox{
+     display: flex;
+     align-items: center;
+     border: 1px solid black;
+     margin:2%;
+     max-height: 400px;
+}
+
+#detailImg{
+     
+     flex-grow: 3;
+     align-self:center;
+     max-height: 350px;
+     max-width: 500px;
+     margin:5% 15%;
+}
+
+#detailForm{
+     height: 400px;
+     border-left: 1px solid black;
+     flex-grow: 1;
+     margin: 2%;
+}
+
+.flexForm {
+     max-width: 400px;
+     margin: 0 auto;
+     padding:40px 20px;
+}
+   
+.flexForm li{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.flexForm > li:not(:last-child) {
+     margin-bottom: 20px;
+}
+   
+.flexForm li label {
+     padding: 8px;
+}
+   
+.flexForm > li > label
+{
+     flex: 1 0 120px;
+     max-width: 220px;
+}
+   
+.flexForm > li > label + *
+{
+     flex: 1 0 220px;
+}  
+   
+#submitButton{
+    margin:auto;
+    padding: 10px;
 }

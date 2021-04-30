@@ -21,11 +21,13 @@ header{
      position:fixed;
      width:100%; 
      top:0;   
-     
+     z-index: 1;
 }
 
 .innerHeader{
      margin:10px;
+     margin-left: 1%;
+     margin-right: 2%;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -47,11 +49,13 @@ footer{
      left:0; 
      width:100%;  
      text-align: center;
+     z-index: 1;
 }
 
 .innerFooter{   
-     margin:10px;
-     padding-top: 16px;
+     margin:20px;
+     margin-left: 3%;
+     margin-right: 1%;
      display: flex;
      justify-content: space-between;
      align-items: center;

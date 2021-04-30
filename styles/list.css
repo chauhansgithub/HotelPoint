@@ -15,22 +15,18 @@ p, h3{
 }
 
 header{
-     z-index: 5;
+     z-index: 3;
 }
 
 .content{
      text-align: left;
+     
 }
 
 
 .lists{
-     /* width: 15%;
-     margin-left: auto;
-     margin-right: auto; 
-     display: flex;
-     justify-content: space-between ;
-     text-decoration: none; */
      position: relative;
+     padding-bottom: 2%;
 }
 
 #li1{
@@ -47,24 +43,27 @@ header{
      overflow: hidden;
 }
 
+
+
 .grid-container {
      display:grid;
      grid-column-gap: 8%;
-     grid-row-gap: 2%;
-     /* grid-row-gap: 7%; */
+     grid-row-gap: 12%;
      grid-template-columns: 40% 40%;
-     margin-top: 4%;
-     margin-bottom: 3%;
-     
+     margin-bottom: 10%;
+}
+
+.listDetails{
+     position:absolute;
+     top: 0%;
+     left: 270px;
 }
 
 .listItem{
+     position: relative;
      width: 100%;
-     /* margin:5% 15%; */
-     /* margin:4%, 10%; */
-     margin: 4%;
      margin-left: 12%;
-     background-color:rgb(132, 136, 139);
+     background-color:lightgrey;
 }
 
 .list_img{

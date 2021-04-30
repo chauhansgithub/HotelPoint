@@ -17,27 +17,46 @@
                </div>
           </header>
           <div class="content">
-               <img id="detailImg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
-               <div id="detailForm">
-                    <form action="payment.html">
-                         <label for="adults"><b>Adults:</b></label>
-                         <input id="adults" type="number" name="adult" value="1" min="1" step="1" required><br>
-                         <label for="name"><b>Name:</b></label>
-                         <input id="name" type="text" name="name" required><br>
-                         <label for="fromdate"><b>From Date:</b></label>
-                         <input type="date" id="fromDate" name="fromDate" required><br>
-                         <label for="todate"><b>To Date:</b></label>
-                         <input type="date" id="toDate" name="toDate" required><br>
-                         <label for="total"><b>Total:</b></label>
-                         <input type="number" id="total" name="price" readonly="readonly"><br>
-                         <input type="submit" value="Book Now">
-                    </form>
+
+               <div class="detailBox">
+                    <img id="detailImg" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson_blu_hotel">
+                    
+               
+                    <div id="detailForm">
+                         <form action="payment.html">
+                              <ul class="flexForm">
+                                   <li>
+                                        <label for="adults"><b>Adults:</b></label>
+                                        <input id="adults" type="number" name="adult" value="1" min="1" step="1" required><br>
+                                   </li>
+                                   <li>
+                                        <label for="name"><b>Name:</b></label>
+                                        <input id="name" type="text" name="name" required>
+                                   </li>
+                                   <li>
+                                        <label for="fromdate"><b>From Date:</b></label>
+                                        <input type="date" id="fromDate" name="fromDate" required>
+                                   </li>
+                                   <Li>
+                                        <label for="todate"><b>To Date:</b></label>
+                                        <input type="date" id="toDate" name="toDate" required>
+                                   </Li>
+                                   <li>
+                                        <label for="total"><b>Total:</b></label>
+                                        <input type="number" id="total" name="price" readonly="readonly">
+                                   </li>
+
+                                   <li><input id="submitButton" type="submit" value="Book Now"></li>
+                              
+                              </ul>
+                         </form>
+                    </div>
                </div>
                <div class="details">
                     <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
+                    <h5>RATING</h5>
                     <p>5 Star</p>
-                    <p>AMENITIES</p>
+                    <h5>AMENITIES</h5>
                     <ul>
                          <li>Room service</li>
                          <li>Restaurant</li>
@@ -52,13 +71,13 @@
           <footer>
                <div class="innerFooter">
                     <a id="contactButton" href="contact.html" >Contact Us</a>
+                    <p id="copyRight">© 2020 ROOM SEARCH PVT LTD</p>
                     <div id="socialButton">
                          <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
                          <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
                          <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
                     </div>
-               </div>
-               <p id="copyRight">© 2020 ROOM SEARCH PVT LTD</p>
+               </div>    
           </footer>
      </body>
 </html>

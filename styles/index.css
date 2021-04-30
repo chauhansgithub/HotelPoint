@@ -3,17 +3,9 @@ body{
 }
 
 .content{
-     margin:0 auto; 
-     overflow:auto;
-     padding:80px 0;
-     text-align: center;
+     padding-bottom: 100px;
 }
 
-.cityImg{
-     height: 150px;
-     width: 150px;
-     border-radius: 25%;
-}
 
 .srchbg{
      position: relative;
@@ -22,7 +14,6 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     z-index: -1;
 }
 
 #search{
@@ -37,15 +28,52 @@ body{
      padding: 10px;
      border-radius: 12px;
      text-align: start;
+     outline: none;
 }
 
 .cities{
      display: flex;
-     margin-left: 15%;
-     margin-right: 15%;
      padding: 4%;
      justify-content: space-evenly;
 }
+
+.cityDiv{
+     position: relative; 
+     height: 150px;
+     width: 150px;
+      
+}
+
+.cityImg{
+     height: 150px;
+     width: 150px;
+     border-radius: 25%;
+     box-shadow:10px 10px grey;  
+}
+
+
+.cityName {
+     position: absolute;  
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+}
+
+.cityDiv:hover .cityImg {
+     background-color: rgba(0, 0, 0, 0.5);
+     opacity: 0.5;
+}
+   
+.cityDiv:hover .cityName {
+     opacity: 1;
+}
+   
+.cityName {   
+     color: #f1f1f1;
+     font-size: 16px;
+     opacity:0;    
+}
+   
 
 #viewButton{
      text-decoration: none;
