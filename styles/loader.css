@@ -8,4 +8,13 @@
      border-radius: 50%;
      border: 12px solid #f3f3f3;
      border-top: 12px solid #444444; 
+     animation: myMove 1s infinite;
+}
+
+@keyframes myMove{
+     0% {border-top: 12px solid #444444;border-right: 12px solid #f3f3f3;border-left: 12px solid #f3f3f3;border-bottom: 12px solid #f3f3f3;}
+     25% {border-top: 12px solid #f3f3f3;border-right: 12px solid #444444;border-left: 12px solid #f3f3f3;border-bottom: 12px solid #f3f3f3;}
+     50% {border-top: 12px solid #f3f3f3;border-right: 12px solid #f3f3f3;border-left: 12px solid #f3f3f3;border-bottom: 12px solid #444444;}
+     75% {border-top: 12px solid #f3f3f3;border-right: 12px solid #f3f3f3;border-left: 12px solid #444444;border-bottom: 12px solid #f3f3f3;}
+     100% {border-top: 12px solid #444444;border-right: 12px solid #f3f3f3;border-left: 12px solid #f3f3f3;border-bottom: 12px solid #f3f3f3;}
 }

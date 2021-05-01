@@ -1,61 +1,36 @@
 li {
-     float: left;
-     list-style-type: none; 
      font-weight: bolder;
-     font-size: 16px;
-     color: black;
+     color: black;    
 }
 
-a{
-     text-decoration: none;
-}
 
 p, h3{
      color: black;
 }
 
-header{
-     z-index: 3;
-}
 
 .content{
      text-align: left;
-     
+     display: flex;
+     flex-direction: column;
 }
 
-
-.lists{
-     position: relative;
-     padding-bottom: 2%;
+#pills-tab{
+     justify-content: center;
+     margin: 2% auto;
 }
-
-#li1{
-     position:absolute;
-     left:43%;
-     z-index: 1;   
-     overflow: hidden;   
-}
-
-#li2{
-     position:absolute;
-     left:51%;
-     z-index: 1;
-     overflow: hidden;
-}
-
-
 
 .grid-container {
      display:grid;
      grid-column-gap: 8%;
      grid-row-gap: 12%;
      grid-template-columns: 40% 40%;
-     margin-bottom: 10%;
+     margin-bottom: 5%;
 }
 
 .listDetails{
      position:absolute;
-     top: 0%;
+     top: 10%;
      left: 270px;
 }
 
@@ -66,6 +41,10 @@ header{
      background-color:lightgrey;
 }
 
+.listItem:hover{
+     background-color: rosybrown;
+}
+
 .list_img{
      height: 200px;
      width: 250px;   
@@ -73,8 +52,4 @@ header{
 
 #list_div{
      text-decoration: black;
-}
-
-#map_div{
-     display: none;
 }

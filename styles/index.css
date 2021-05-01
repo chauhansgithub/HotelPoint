@@ -7,7 +7,7 @@ body{
 }
 
 
-.srchbg{
+#srchbg{
      position: relative;
      height: 430px;     
      background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -57,6 +57,9 @@ body{
      top:50%;
      left:50%;
      transform: translate(-50%, -50%);
+     color: #f1f1f1;
+     font-size: 16px;
+     opacity:0; 
 }
 
 .cityDiv:hover .cityImg {
@@ -67,14 +70,4 @@ body{
 .cityDiv:hover .cityName {
      opacity: 1;
 }
-   
-.cityName {   
-     color: #f1f1f1;
-     font-size: 16px;
-     opacity:0;    
-}
-   
 
-#viewButton{
-     text-decoration: none;
-}

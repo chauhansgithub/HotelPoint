@@ -1,18 +1,14 @@
-html{
+html, body{
      height: 100%;
      margin:0;
      padding:0;  
      font-family: 'Ubuntu', sans-serif;
      
 }
-body{
-     height: 100%;
-     background-color: #e0e0e0;
-     margin:0;
-     padding:0; 
-     
-}
 
+body{
+     background-color: #e0e0e0;     
+}
 
 header{
      background-color: rosybrown;
@@ -30,8 +26,7 @@ header{
      margin-right: 2%;
      display: flex;
      justify-content: space-between;
-     align-items: center;
-     
+     align-items: center;    
 }
 
 .content{
@@ -61,8 +56,6 @@ footer{
      align-items: center;
 }
 
-
-
 #logoImg{
      height: 60px;
      width: 60px;;
@@ -78,10 +71,6 @@ footer{
      font-size: 10px;
 }
 
-#contactButton{
-     text-decoration: none;
-     color: black;
-}
 #socialButton{
      margin-right: 10px;
 }
@@ -91,6 +80,22 @@ footer{
      width: 22px;
 }
 
+.gapForm{
+     margin-left: 50px;     
+}
+
+#emailsId{
+     margin-left: 5px;
+}
+
+.form-control:focus {
+     border: 3px solid black;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(0, 0, 0, 0);
+}
+
+.btn-light{
+     font-weight: bold;
+}
 
 /* cyrillic-ext */
 @font-face {
