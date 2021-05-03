@@ -97,6 +97,10 @@ footer{
      font-weight: bold;
 }
 
+.checked {
+     color: orange;
+}
+
 /* cyrillic-ext */
 @font-face {
      font-family: 'Ubuntu';
