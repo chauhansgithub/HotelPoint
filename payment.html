@@ -13,12 +13,7 @@
           <link rel="stylesheet" type="text/css" href="styles/payment.css">
      </head>
      <body>
-          <header>
-               <div class="innerHeader">
-                    <a href="index.html"><img  id="logoImg" src="assests/images/logo.png" alt="logo"></a> 
-                    <button type="button" class="btn btn-light btn-sm" data-toggle="modal" data-target="#login-modal" id="sign-in-button">LOGIN</button>
-               </div>
-          </header>
+          <header id="header"></header>
           <div class="modal fade" id="login-modal" role="dialog" aria-labelledby="exampleModalLabel" tabindex="-1"  aria-hidden="true" >
                <div class="modal-dialog" role="document">
                    <div class="modal-content">
@@ -41,7 +36,7 @@
                               </form>
                        </div>
                        <div class="modal-footer justify-content-center">
-                              <button type="button" class="btn btn-primary">Login</button>
+                              <button type="button" id="loginButton" class="btn btn-primary">Login</button>
                        </div>
                    </div>
                </div>
@@ -91,19 +86,11 @@
                          <p><b>Tariff Breakdown:</b> Rs 1000 x 2 Adults x 5 Nights</p>
                          <p><b>Total Amount:</b> Rs 10000</p>       
                     </div>
-                    <button type="button" class="btn btn-success" disabled>Pay Now</button>
+                    <button id="payButton" type="button" class="btn btn-success" disabled>Pay Now</button>
                </div>
           </div>
-          <footer>
-               <div class="innerFooter">
-                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#contact-modal" id="contact-us-button">Contact Us</button>
-                    <p id="copyRight">© 2020 ROOM SEARCH PVT LTD</p>
-                    <div id="socialButton">
-                         <a href="https://www.facebook.com" target="_blank"><img class="socialImg" src="assests/images/facebook.png" alt="facebook_img"></a>
-                         <a href="https://www.instagram.com" target="_blank"><img class="socialImg" src="assests/images/instagram.png" alt="instagram_img"></a>
-                         <a href="https://www.twitter.com" target="_blank"><img class="socialImg" src="assests/images/twitter.png" alt="twitter_img"></a>
-                    </div>
-               </div>              
-          </footer>         
+          <footer id="footer"></footer>
+          <script src="scripts/common.js"></script> 
+          <script src="scripts/payment.js"></script>       
      </body>
 </html>
